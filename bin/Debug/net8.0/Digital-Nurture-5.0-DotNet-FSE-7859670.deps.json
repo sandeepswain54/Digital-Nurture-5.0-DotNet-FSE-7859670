@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Digital-Nurture-5.0-DotNet-FSE-7859670/1.0.0": {
+        "runtime": {
+          "Digital-Nurture-5.0-DotNet-FSE-7859670.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Digital-Nurture-5.0-DotNet-FSE-7859670/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

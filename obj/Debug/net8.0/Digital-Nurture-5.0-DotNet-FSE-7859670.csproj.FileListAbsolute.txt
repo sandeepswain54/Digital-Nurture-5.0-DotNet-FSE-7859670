@@ -1,0 +1,15 @@
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\bin\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.exe
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\bin\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.deps.json
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\bin\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.runtimeconfig.json
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\bin\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.dll
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\bin\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.pdb
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.GeneratedMSBuildEditorConfig.editorconfig
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.AssemblyInfoInputs.cache
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.AssemblyInfo.cs
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.csproj.CoreCompileInputs.cache
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.sourcelink.json
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.dll
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\refint\Digital-Nurture-5.0-DotNet-FSE-7859670.dll
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.pdb
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\Digital-Nurture-5.0-DotNet-FSE-7859670.genruntimeconfig.cache
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\obj\Debug\net8.0\ref\Digital-Nurture-5.0-DotNet-FSE-7859670.dll

@@ -1,0 +1,15 @@
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\bin\Debug\net8.0\Code.exe
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\bin\Debug\net8.0\Code.deps.json
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\bin\Debug\net8.0\Code.runtimeconfig.json
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\bin\Debug\net8.0\Code.dll
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\bin\Debug\net8.0\Code.pdb
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\Code.GeneratedMSBuildEditorConfig.editorconfig
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\Code.AssemblyInfoInputs.cache
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\Code.AssemblyInfo.cs
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\Code.csproj.CoreCompileInputs.cache
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\Code.sourcelink.json
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\Code.dll
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\refint\Code.dll
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\Code.pdb
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\Code.genruntimeconfig.cache
+E:\Digital_Nurture_DotNet\Digital-Nurture-5.0-DotNet-FSE-7859670\Week_1_DesignPatterns_Principles_HandsON\02_Implementing_the_Factory_Method_Pattern\Code\obj\Debug\net8.0\ref\Code.dll
