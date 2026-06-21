@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeapYearCalculatorLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+959534c69ca042eca68bf5f8c28e531d8f7c813c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6af48e30a770338daa48a98c2f44282d595a6875")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeapYearCalculatorLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeapYearCalculatorLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
