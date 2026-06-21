@@ -33,7 +33,7 @@ cd 01_CalcLibrary_Addition\CalcLibrary.Tests
 dotnet test
 ```
 
-`dotnet test` automatically restores NuGet packages (NUnit, NUnit3TestAdapter, Microsoft.NET.Test.Sdk, and Moq for Exercise 9), builds both the source library and test project (since the test project references the source library), and runs every `[Test]`/`[TestCase]` method. You'll see a summary like:
+`dotnet test` automatically restores NuGet packages (NUnit, NUnit3TestAdapter, Microsoft.NET.Test.Sdk, and Moq for Exercise 9), builds both the source library and test project (since the test project references the source library), and runs every `[Test]`/`[TestCase]` method. You'll see a summary likee:
 
 ```
 Passed!  - Failed: 0, Passed: 4, Skipped: 0, Total: 4
