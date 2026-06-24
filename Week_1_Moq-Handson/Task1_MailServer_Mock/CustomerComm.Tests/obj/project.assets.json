@@ -849,7 +849,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sande\\.nuget\\packages\\": {}
+    "E:\\NugetCache\\packages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -857,7 +857,7 @@
       "projectUniqueName": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_Moq-Handson\\Task1_MailServer_Mock\\CustomerComm.Tests\\CustomerComm.Tests.csproj",
       "projectName": "CustomerComm.Tests",
       "projectPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_Moq-Handson\\Task1_MailServer_Mock\\CustomerComm.Tests\\CustomerComm.Tests.csproj",
-      "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
+      "packagesPath": "E:\\NugetCache\\packages",
       "outputPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_Moq-Handson\\Task1_MailServer_Mock\\CustomerComm.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [

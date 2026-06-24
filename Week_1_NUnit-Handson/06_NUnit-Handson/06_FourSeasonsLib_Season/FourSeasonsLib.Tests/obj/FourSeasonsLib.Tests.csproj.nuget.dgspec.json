@@ -10,7 +10,7 @@
         "projectUniqueName": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\06_NUnit-Handson\\06_FourSeasonsLib_Season\\FourSeasonsLib.Tests\\FourSeasonsLib.Tests.csproj",
         "projectName": "FourSeasonsLib.Tests",
         "projectPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\06_NUnit-Handson\\06_FourSeasonsLib_Season\\FourSeasonsLib.Tests\\FourSeasonsLib.Tests.csproj",
-        "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
+        "packagesPath": "E:\\NugetCache\\packages",
         "outputPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\06_NUnit-Handson\\06_FourSeasonsLib_Season\\FourSeasonsLib.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
@@ -86,7 +86,7 @@
         "projectUniqueName": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\06_NUnit-Handson\\06_FourSeasonsLib_Season\\FourSeasonsLib\\FourSeasonsLib.csproj",
         "projectName": "FourSeasonsLib",
         "projectPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\06_NUnit-Handson\\06_FourSeasonsLib_Season\\FourSeasonsLib\\FourSeasonsLib.csproj",
-        "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
+        "packagesPath": "E:\\NugetCache\\packages",
         "outputPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\06_NUnit-Handson\\06_FourSeasonsLib_Season\\FourSeasonsLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [

@@ -10,7 +10,7 @@
         "projectUniqueName": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\02_NUnit-Handson\\02_CalcLibrary_AllOperations\\CalcLibrary.Tests\\CalcLibrary.Tests.csproj",
         "projectName": "CalcLibrary.Tests",
         "projectPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\02_NUnit-Handson\\02_CalcLibrary_AllOperations\\CalcLibrary.Tests\\CalcLibrary.Tests.csproj",
-        "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
+        "packagesPath": "E:\\NugetCache\\packages",
         "outputPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\02_NUnit-Handson\\02_CalcLibrary_AllOperations\\CalcLibrary.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
@@ -86,7 +86,7 @@
         "projectUniqueName": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\02_NUnit-Handson\\02_CalcLibrary_AllOperations\\CalcLibrary\\CalcLibrary.csproj",
         "projectName": "CalcLibrary",
         "projectPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\02_NUnit-Handson\\02_CalcLibrary_AllOperations\\CalcLibrary\\CalcLibrary.csproj",
-        "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
+        "packagesPath": "E:\\NugetCache\\packages",
         "outputPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_NUnit-Handson\\02_NUnit-Handson\\02_CalcLibrary_AllOperations\\CalcLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [

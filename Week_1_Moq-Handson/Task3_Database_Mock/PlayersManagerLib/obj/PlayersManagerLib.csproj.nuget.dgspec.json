@@ -10,7 +10,7 @@
         "projectUniqueName": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_Moq-Handson\\Task3_Database_Mock\\PlayersManagerLib\\PlayersManagerLib.csproj",
         "projectName": "PlayersManagerLib",
         "projectPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_Moq-Handson\\Task3_Database_Mock\\PlayersManagerLib\\PlayersManagerLib.csproj",
-        "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
+        "packagesPath": "E:\\NugetCache\\packages",
         "outputPath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_1_Moq-Handson\\Task3_Database_Mock\\PlayersManagerLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
