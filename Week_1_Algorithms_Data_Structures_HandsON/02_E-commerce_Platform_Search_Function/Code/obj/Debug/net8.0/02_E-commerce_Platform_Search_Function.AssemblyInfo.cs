@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("02_E-commerce_Platform_Search_Function")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+652e66819a9ec0a4da3154caddf166103d29d693")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26c2e9830893378be2c73e1990e2438e7f066a3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("02_E-commerce_Platform_Search_Function")]
 [assembly: System.Reflection.AssemblyTitleAttribute("02_E-commerce_Platform_Search_Function")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
