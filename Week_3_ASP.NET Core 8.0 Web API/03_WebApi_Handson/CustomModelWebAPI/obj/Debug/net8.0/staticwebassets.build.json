@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wndlYBngTyRJhYAtYi+9Rc82rGgJqSVan33mXMr8IGo=",
+  "Source": "CustomModelWebAPI",
+  "BasePath": "_content/CustomModelWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

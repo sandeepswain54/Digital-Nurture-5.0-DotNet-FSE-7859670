@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "jnOcV9uNwbU=",
+  "success": true,
+  "projectFilePath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_3_ASP.NET Core 8.0 Web API\\03_WebApi_Handson\\CustomModelWebAPI\\CustomModelWebAPI.csproj",
+  "expectedPackageFiles": [
+    "E:\\NugetCache\\packages\\microsoft.aspnetcore.openapi\\8.0.28\\microsoft.aspnetcore.openapi.8.0.28.nupkg.sha512",
+    "E:\\NugetCache\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
+    "E:\\NugetCache\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "E:\\NugetCache\\packages\\swashbuckle.aspnetcore\\10.2.3\\swashbuckle.aspnetcore.10.2.3.nupkg.sha512",
+    "E:\\NugetCache\\packages\\swashbuckle.aspnetcore.swagger\\10.2.3\\swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
+    "E:\\NugetCache\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.3\\swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
+    "E:\\NugetCache\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.3\\swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512",
+    "E:\\NugetCache\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

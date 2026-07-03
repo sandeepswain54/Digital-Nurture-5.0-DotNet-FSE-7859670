@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "WNG82omCIJ8=",
+  "success": true,
+  "projectFilePath": "E:\\Digital_Nurture_DotNet\\Digital-Nurture-5.0-DotNet-FSE-7859670\\Week_3_ASP.NET Core 8.0 Web API\\02_WebApi_Handson\\SwaggerWebAPI\\SwaggerWebAPI.csproj",
+  "expectedPackageFiles": [
+    "E:\\NugetCache\\packages\\microsoft.aspnetcore.openapi\\8.0.28\\microsoft.aspnetcore.openapi.8.0.28.nupkg.sha512",
+    "E:\\NugetCache\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "E:\\NugetCache\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "E:\\NugetCache\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "E:\\NugetCache\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "E:\\NugetCache\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "E:\\NugetCache\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: There is not enough space on the disk. : 'C:\\Users\\sande\\AppData\\Local\\NuGet\\v3-cache\\670c1461c29885f9aa22c281d8b7da90845b38e4$ps_api.nuget.org_v3_index.json\\vuln_data_base.dat-new'"
+    }
+  ]
+}
