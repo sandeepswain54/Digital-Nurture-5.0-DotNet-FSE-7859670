@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vFCCL+0AzgPYzLvdYhFPZlSW3H+6/IzGqNWMxrrk560=",
+  "Source": "JwtMicroservice",
+  "BasePath": "_content/JwtMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
