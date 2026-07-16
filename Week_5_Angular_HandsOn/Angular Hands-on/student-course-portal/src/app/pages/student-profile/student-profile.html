@@ -1,0 +1,46 @@
+<div class="profile-container">
+  <h2>Student Profile</h2>
+
+  <div class="student-info">
+    <div class="avatar">👤</div>
+    <div class="info">
+      <h3>John Student</h3>
+      <p>ID: STU001</p>
+      <p>GPA: 3.8</p>
+    </div>
+  </div>
+
+  <!-- Enrolled courses from NgRx store -->
+  <div class="enrolled-section">
+    <ng-container
+      *ngIf="enrolledCourses$ | async
+             as enrolledCourses">
+
+      <h3>Enrolled Courses
+        ({{ enrolledCourses.length }})</h3>
+
+      <div *ngIf="enrolledCourses.length === 0"
+           class="no-courses">
+        No courses enrolled yet!
+      </div>
+
+      <div class="enrolled-list">
+        <div *ngFor="let course of enrolledCourses"
+             class="enrolled-card">
+          <h4>{{ course.name }}</h4>
+          <p>Code: {{ course.code }}</p>
+          <p>Credits: {{ course.credits }}</p>
+          <span class="status"
+            [style.color]="
+              course.gradeStatus === 'passed'
+                ? 'green' :
+              course.gradeStatus === 'failed'
+                ? 'red' : 'orange'">
+            {{ course.gradeStatus | titlecase }}
+          </span>
+        </div>
+      </div>
+
+    </ng-container>
+  </div>
+</div>

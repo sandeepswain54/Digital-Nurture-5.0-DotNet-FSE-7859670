@@ -1,0 +1,159 @@
+.form-container {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.form-container > p {
+  color: #888;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+.form-control.ng-invalid.ng-touched {
+  border-color: red;
+}
+
+.form-control.ng-valid.ng-touched {
+  border-color: green;
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
+
+.info {
+  color: #007bff;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.additional-course {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.additional-course .form-control {
+  flex: 1;
+}
+
+.add-btn {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.add-btn:hover {
+  background: #138496;
+}
+
+.remove-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.remove-btn:hover {
+  background: #c82333;
+}
+
+.form-status {
+  background: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.submit-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.submit-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.reset-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+}

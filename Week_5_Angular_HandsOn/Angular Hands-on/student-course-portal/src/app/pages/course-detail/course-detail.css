@@ -1,0 +1,90 @@
+.detail-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  background: none;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.back-btn:hover {
+  background: #007bff;
+  color: white;
+}
+
+.course-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.course-header h2 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.code-badge {
+  background: #007bff;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.course-info {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px 30px;
+  min-width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.info-card h4 {
+  color: #666;
+  margin: 0 0 8px 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.info-card p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.course-description {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.course-description h3 {
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.not-found {
+  text-align: center;
+  padding: 60px;
+  color: #666;
+}

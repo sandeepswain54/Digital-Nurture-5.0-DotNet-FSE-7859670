@@ -1,0 +1,128 @@
+.form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.form-container > p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+/* Angular form state CSS classes */
+.form-control.ng-invalid.ng-touched {
+  border-color: red;
+}
+
+.form-control.ng-valid.ng-touched {
+  border-color: green;
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.form-status {
+  background: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.submit-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  flex: 1;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+.submit-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.reset-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  flex: 1;
+}
+
+.reset-btn:hover {
+  background: #545b62;
+}
+
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-align: center;
+  border: 1px solid #c3e6cb;
+}

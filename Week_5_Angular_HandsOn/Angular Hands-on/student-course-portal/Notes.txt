@@ -1,0 +1,54 @@
+=== Hands-On 1: Angular Project File Explanations ===
+
+1. angular.json
+   - Main configuration file for Angular CLI workspace.
+   - Controls build, serve, test, and lint options.
+   - Contains project structure, asset paths, and build budgets.
+
+2. tsconfig.json
+   - Root TypeScript configuration for the entire workspace.
+   - Sets base compiler options inherited by all other tsconfig files.
+
+3. tsconfig.app.json
+   - TypeScript config specific to the application build.
+   - Extends tsconfig.json with app-specific settings.
+   - Includes only app source files, excludes test files.
+
+4. package.json
+   - Lists all npm dependencies and devDependencies.
+   - Contains scripts like ng serve, ng build, ng test.
+   - Defines the project name and version.
+
+5. src/main.ts
+   - Entry point of the Angular application.
+   - Bootstraps the root AppComponent using bootstrapApplication().
+   - Passes app configuration from app.config.ts.
+
+6. src/app/app.config.ts
+   - Standalone app configuration file (modern Angular approach).
+   - Provides app-level services like Router and HttpClient.
+   - Replaces the old AppModule in standalone mode.
+
+7. src/app/app.component.ts
+   - Root component of the entire application.
+   - All other components are rendered inside this component.
+   - Contains the app-root selector used in index.html.
+
+8. src/index.html
+   - Main HTML shell file of the Angular SPA.
+   - Contains <app-root> tag where Angular app is injected.
+   - Loaded first by the browser on every request.
+
+=== angular.json Budgets Configuration ===
+Location: architect > build > configurations > production > budgets
+
+maximumWarning: "500kB"
+- Shows a warning in the build output if the bundle size exceeds 500KB.
+- Does NOT fail the build, just warns the developer.
+
+maximumError: "1MB"  
+- Fails the build completely if the bundle size exceeds 1MB.
+- Prevents accidentally shipping very large bundles to production.
+
+Purpose: These budget thresholds enforce performance standards
+by preventing oversized JavaScript bundles that slow down page load.

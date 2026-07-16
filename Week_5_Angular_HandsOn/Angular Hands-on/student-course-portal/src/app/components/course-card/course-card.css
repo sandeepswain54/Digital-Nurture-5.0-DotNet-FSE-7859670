@@ -1,0 +1,107 @@
+.course-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  border-left: 4px solid grey;
+}
+
+.course-card:hover {
+  transform: translateY(-3px);
+}
+
+/* ngClass styles */
+.card--enrolled {
+  background: #e8f5e9;
+}
+
+.card--full {
+  border-top: 3px solid #ff9800;
+}
+
+.expanded {
+  min-height: 220px;
+}
+
+.course-card h3 {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+}
+
+.code {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.credits {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Badge styles for ngSwitch */
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.badge-passed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.badge-failed {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.badge-pending {
+  background: #e2e3e5;
+  color: #383d41;
+}
+
+.details {
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.details-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 8px 4px;
+  font-size: 0.85rem;
+}
+
+.enroll-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.enroll-btn:hover {
+  background: #218838;
+}
+
+.enroll-btn.unenroll {
+  background: #dc3545;
+}
+
+.enroll-btn.unenroll:hover {
+  background: #c82333;
+}

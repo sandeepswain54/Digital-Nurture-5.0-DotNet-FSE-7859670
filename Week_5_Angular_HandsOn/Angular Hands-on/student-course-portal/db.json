@@ -1,0 +1,56 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Data Structures",
+      "code": "CS101",
+      "credits": 4,
+      "gradeStatus": "passed",
+      "enrolled": true
+    },
+    {
+      "id": 2,
+      "name": "Web Development",
+      "code": "CS102",
+      "credits": 3,
+      "gradeStatus": "failed",
+      "enrolled": false
+    },
+    {
+      "id": 3,
+      "name": "Database Management",
+      "code": "CS103",
+      "credits": 4,
+      "gradeStatus": "pending",
+      "enrolled": true
+    },
+    {
+      "id": 4,
+      "name": "Machine Learning",
+      "code": "CS104",
+      "credits": 3,
+      "gradeStatus": "passed",
+      "enrolled": false
+    },
+    {
+      "id": 5,
+      "name": "Cloud Computing",
+      "code": "CS105",
+      "credits": 2,
+      "gradeStatus": "pending",
+      "enrolled": false
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "John Student",
+      "email": "john@example.com",
+      "gpa": 3.8
+    }
+  ],
+  "enrollments": [
+    { "id": 1, "studentId": 1, "courseId": 1 },
+    { "id": 2, "studentId": 1, "courseId": 3 }
+  ]
+}

@@ -1,0 +1,61 @@
+<ng-container *ngIf="isEnrolled$ | async as isEnrolled">
+
+  <div class="course-card"
+       appHighlight="lightyellow"
+       [ngClass]="getCardClasses(isEnrolled)"
+       [ngStyle]="{
+         'border-left':
+           course.gradeStatus === 'passed'
+             ? '4px solid green' :
+           course.gradeStatus === 'failed'
+             ? '4px solid red' :
+             '4px solid grey'
+       }">
+
+    <h3>{{ course.name }}</h3>
+    <p class="code">Code: {{ course.code }}</p>
+    <p class="credits">
+      {{ course.credits | creditLabel }}
+    </p>
+
+    <!-- Grade status badge -->
+    <div [ngSwitch]="course.gradeStatus">
+      <span *ngSwitchCase="'passed'"
+            class="badge badge-passed">
+        ✅ Passed
+      </span>
+      <span *ngSwitchCase="'failed'"
+            class="badge badge-failed">
+        ❌ Failed
+      </span>
+      <span *ngSwitchDefault
+            class="badge badge-pending">
+        ⏳ Pending
+      </span>
+    </div>
+
+    <!-- Show Details -->
+    <button (click)="toggleExpand()"
+            class="details-btn">
+      {{ isExpanded ? 'Hide Details' : 'Show Details' }}
+    </button>
+
+    <div *ngIf="isExpanded" class="details">
+      <p>Course ID: {{ course.id }}</p>
+      <p>Status: {{ course.gradeStatus }}</p>
+      <p>Enrolled:
+        {{ isEnrolled ? 'Yes ✅' : 'No ❌' }}
+      </p>
+    </div>
+
+    <!-- Enroll/Unenroll using NgRx -->
+    <button
+      (click)="onEnroll(isEnrolled)"
+      class="enroll-btn"
+      [class.unenroll]="isEnrolled">
+      {{ isEnrolled ? 'Unenroll' : 'Enroll' }}
+    </button>
+
+  </div>
+
+</ng-container>

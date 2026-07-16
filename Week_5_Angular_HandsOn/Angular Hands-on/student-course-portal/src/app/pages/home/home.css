@@ -1,0 +1,94 @@
+.home-container {
+  padding: 40px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.stat-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 30px 50px;
+  min-width: 160px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h3 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin: 0 0 8px 0;
+}
+
+.stat-card p {
+  margin: 0;
+  color: #555;
+}
+
+.binding-section {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f0f4ff;
+  border-radius: 12px;
+}
+
+.enroll-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.enroll-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.enroll-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+.search-input {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.search-box p {
+  margin-top: 8px;
+  color: #555;
+}

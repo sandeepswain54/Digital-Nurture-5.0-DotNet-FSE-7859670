@@ -1,0 +1,50 @@
+<div class="course-list-container">
+  <h2>Available Courses</h2>
+
+  <!-- Error from store -->
+  <div *ngIf="error$ | async as error"
+       class="error-message">
+    ❌ {{ error }}
+  </div>
+
+  <!-- Loading from store -->
+  <p *ngIf="isLoading$ | async"
+     class="loading">
+    Loading courses...
+  </p>
+
+  <!-- Courses from store using async pipe -->
+  <ng-container
+    *ngIf="!(isLoading$ | async)">
+    <ng-container
+      *ngIf="(courses$ | async) as courses">
+
+      <ng-container
+        *ngIf="courses.length > 0; else noCourses">
+        <div class="courses-grid">
+          <div
+            *ngFor="let course of courses;
+                    trackBy: trackByCourseId"
+            (click)="onCardClick(course.id)"
+            class="clickable">
+            <app-course-card
+              [course]="course"
+              (enrollRequested)="onEnroll($event)">
+            </app-course-card>
+          </div>
+        </div>
+      </ng-container>
+
+      <ng-template #noCourses>
+        <p class="no-courses">
+          No courses available.
+        </p>
+      </ng-template>
+
+    </ng-container>
+  </ng-container>
+
+  <p *ngIf="selectedCourseId" class="selected">
+    Selected Course ID: {{ selectedCourseId }}
+  </p>
+</div>
