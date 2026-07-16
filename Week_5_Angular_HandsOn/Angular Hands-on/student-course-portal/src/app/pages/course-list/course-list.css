@@ -60,3 +60,110 @@
   font-size: 1.1rem;
   border: 1px solid #f5c6cb;
 }
+
+.search-bar {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.search-input {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.search-info {
+  margin-top: 8px;
+  color: #666;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 340px;
+  max-height: 280px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  margin-top: 6px;
+  z-index: 20;
+}
+
+.dropdown-empty {
+  padding: 14px;
+  color: #999;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-name {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.dropdown-name small {
+  color: #999;
+}
+
+.dropdown-status.enrolled {
+  color: #2e7d32;
+  font-size: 0.8rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.dropdown-enroll-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.dropdown-enroll-btn:hover {
+  background: #0056b3;
+}
+
+.toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  animation: toast-in 0.3s ease;
+}
+
+.toast-success {
+  background: #28a745;
+  color: white;
+}
+
+@keyframes toast-in {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

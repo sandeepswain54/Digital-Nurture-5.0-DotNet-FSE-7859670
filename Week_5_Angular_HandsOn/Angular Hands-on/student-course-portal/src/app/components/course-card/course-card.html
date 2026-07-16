@@ -1,8 +1,8 @@
-<ng-container *ngIf="isEnrolled$ | async as isEnrolled">
+<ng-container *ngIf="isEnrolled$ | async as state">
 
   <div class="course-card"
        appHighlight="lightyellow"
-       [ngClass]="getCardClasses(isEnrolled)"
+       [ngClass]="getCardClasses(state.enrolled)"
        [ngStyle]="{
          'border-left':
            course.gradeStatus === 'passed'
@@ -44,16 +44,16 @@
       <p>Course ID: {{ course.id }}</p>
       <p>Status: {{ course.gradeStatus }}</p>
       <p>Enrolled:
-        {{ isEnrolled ? 'Yes ✅' : 'No ❌' }}
+        {{ state.enrolled ? 'Yes ✅' : 'No ❌' }}
       </p>
     </div>
 
     <!-- Enroll/Unenroll using NgRx -->
     <button
-      (click)="onEnroll(isEnrolled)"
+      (click)="onEnroll(state.enrolled)"
       class="enroll-btn"
-      [class.unenroll]="isEnrolled">
-      {{ isEnrolled ? 'Unenroll' : 'Enroll' }}
+      [class.unenroll]="state.enrolled">
+      {{ state.enrolled ? 'Unenroll' : 'Enroll' }}
     </button>
 
   </div>

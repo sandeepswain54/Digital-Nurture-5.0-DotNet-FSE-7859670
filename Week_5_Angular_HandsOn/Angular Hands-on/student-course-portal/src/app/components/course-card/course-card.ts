@@ -39,13 +39,17 @@ export class CourseCard implements OnChanges {
   isExpanded = false;
 
   // Observable for enrolled state
-  isEnrolled$: Observable<boolean>;
+  // Wrapped in an object (not a bare boolean) because the
+  // template uses "isEnrolled$ | async as state" - *ngIf
+  // hides content when the piped value is falsy, and a bare
+  // `false` would hide the whole card for non-enrolled courses
+  isEnrolled$: Observable<{ enrolled: boolean }>;
 
   constructor(private store: Store) {
     this.isEnrolled$ = this.store
       .select(selectEnrolledIds)
       .pipe(
-        map(ids => ids.includes(this.course.id))
+        map(ids => ({ enrolled: ids.includes(this.course.id) }))
       );
   }
 
@@ -55,7 +59,7 @@ export class CourseCard implements OnChanges {
       this.isEnrolled$ = this.store
         .select(selectEnrolledIds)
         .pipe(
-          map(ids => ids.includes(this.course.id))
+          map(ids => ({ enrolled: ids.includes(this.course.id) }))
         );
     }
   }

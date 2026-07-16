@@ -119,7 +119,7 @@ describe('CourseCard', () => {
     component.ngOnChanges(changes);
 
     let result: boolean | undefined;
-    component.isEnrolled$.subscribe(v => result = v);
+    component.isEnrolled$.subscribe(v => result = v.enrolled);
 
     // id 2 is not in the mock enrolledCourseIds [1, 3]
     expect(result).toBe(false);

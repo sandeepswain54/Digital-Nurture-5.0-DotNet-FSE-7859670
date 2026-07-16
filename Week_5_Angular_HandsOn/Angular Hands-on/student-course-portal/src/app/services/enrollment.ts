@@ -13,6 +13,10 @@ export class EnrollmentService {
   // Store enrolled course IDs
   private enrolledCourseIds: number[] = [1, 3];
 
+  // Emails already used to submit the enrollment form -
+  // prevents two different submissions with the same email
+  private enrolledEmails = new Set<string>();
+
   // Service-to-service injection
   // CourseService injected into EnrollmentService
   constructor(private courseService: CourseService) {}
@@ -59,5 +63,15 @@ export class EnrollmentService {
   // Get enrolled count
   getEnrolledCount(): number {
     return this.enrolledCourseIds.length;
+  }
+
+  // Check if an email has already been used to enroll
+  isEmailTaken(email: string): boolean {
+    return this.enrolledEmails.has(email.trim().toLowerCase());
+  }
+
+  // Record an email as having enrolled
+  registerEmail(email: string): void {
+    this.enrolledEmails.add(email.trim().toLowerCase());
   }
 }

@@ -1,6 +1,53 @@
 <div class="course-list-container">
   <h2>Available Courses</h2>
 
+  <!-- Search bar -->
+  <div class="search-bar">
+    <input
+      [(ngModel)]="searchTerm"
+      (focus)="onSearchFocus()"
+      (blur)="onSearchBlur()"
+      placeholder="Search courses..."
+      class="search-input"/>
+
+    <!-- Search dropdown: matching course names + enrollment status -->
+    <div class="search-dropdown"
+         *ngIf="showDropdown && searchTerm && (courses$ | async) as courses">
+      <ng-container *ngIf="filterCourses(courses) as matches">
+        <div *ngIf="matches.length === 0" class="dropdown-empty">
+          No courses found for '{{ searchTerm }}'
+        </div>
+        <div *ngFor="let course of matches" class="dropdown-item">
+          <span class="dropdown-name">
+            {{ course.name }} <small>({{ course.code }})</small>
+          </span>
+          <span *ngIf="isEnrolled(course.id); else availableBadge"
+                class="dropdown-status enrolled">
+            Enrolled ✅
+          </span>
+          <ng-template #availableBadge>
+            <button
+              class="dropdown-enroll-btn"
+              (mousedown)="$event.preventDefault()"
+              (click)="quickEnroll(course)">
+              Enroll
+            </button>
+          </ng-template>
+        </div>
+      </ng-container>
+    </div>
+
+    <p *ngIf="searchTerm" class="search-info">
+      Showing results for:
+      <strong>{{ searchTerm }}</strong>
+    </p>
+  </div>
+
+  <!-- Toast -->
+  <div *ngIf="toastMessage" class="toast toast-success">
+    ✅ {{ toastMessage }}
+  </div>
+
   <!-- Error from store -->
   <div *ngIf="error$ | async as error"
        class="error-message">
@@ -21,18 +68,26 @@
 
       <ng-container
         *ngIf="courses.length > 0; else noCourses">
-        <div class="courses-grid">
-          <div
-            *ngFor="let course of courses;
-                    trackBy: trackByCourseId"
-            (click)="onCardClick(course.id)"
-            class="clickable">
-            <app-course-card
-              [course]="course"
-              (enrollRequested)="onEnroll($event)">
-            </app-course-card>
+        <ng-container *ngIf="filterCourses(courses) as filtered">
+
+          <div *ngIf="filtered.length > 0" class="courses-grid">
+            <div
+              *ngFor="let course of filtered;
+                      trackBy: trackByCourseId"
+              (click)="onCardClick(course.id)"
+              class="clickable">
+              <app-course-card
+                [course]="course"
+                (enrollRequested)="onEnroll($event)">
+              </app-course-card>
+            </div>
           </div>
-        </div>
+
+          <p *ngIf="filtered.length === 0" class="no-courses">
+            No courses found for '{{ searchTerm }}'
+          </p>
+
+        </ng-container>
       </ng-container>
 
       <ng-template #noCourses>

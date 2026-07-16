@@ -47,6 +47,7 @@
         id="studentEmail"
         name="studentEmail"
         [(ngModel)]="formData.studentEmail"
+        (ngModelChange)="onEmailChange()"
         #emailCtrl="ngModel"
         required
         email
@@ -62,6 +63,9 @@
         *ngIf="emailCtrl.touched &&
                emailCtrl.errors?.['email']">
         Please enter a valid email address
+      </span>
+      <span class="error" *ngIf="duplicateEmailError">
+        This email has already been used to enroll. Please use a different email.
       </span>
     </div>
 
