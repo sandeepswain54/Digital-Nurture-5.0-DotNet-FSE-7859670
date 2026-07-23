@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FourSeasonsLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26c2e9830893378be2c73e1990e2438e7f066a3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+235f8cf18fc74e3fa5de69a76151c3fd152605ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("FourSeasonsLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FourSeasonsLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
